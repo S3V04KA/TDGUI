@@ -1,0 +1,48 @@
+﻿{
+  "port": 9876,
+  "groups": [
+    {
+      "id": "test",
+      "label": {
+        "ru": "Test",
+        "en": "Test"
+      },
+      "icon": "lightbulb",
+      "quick": [
+        "test/uvweight",
+        "test/rough"
+      ],
+      "controls": [
+        {
+          "id": "rough",
+          "par": "/project1/noise1.rough",
+          "type": "knob",
+          "label": {
+            "ru": "rough",
+            "en": "rough"
+          },
+          "min": 0,
+          "max": 1,
+          "unit": "",
+          "precision": 1
+        },
+        {
+          "id": "uvweight",
+          "par": "/project1/displace1.uvweight",
+          "type": "knob",
+          "label": {
+            "ru": "Test",
+            "en": "Test"
+          },
+          "min": 0,
+          "max": 1,
+          "unit": "",
+          "precision": 1
+        }
+      ],
+      "metrics": [
+      ],
+      "groups": []
+    }
+  ]
+}
